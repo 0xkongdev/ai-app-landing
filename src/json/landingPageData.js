@@ -9,9 +9,7 @@ import UIUX from '../assets/images/Services/Design.png';
 import Recruiting from '../assets/images/Portfolio/Recruiting.png';
 import Stream from '../assets/images/Portfolio/Stream.png';
 import Freelance from '../assets/images/Portfolio/Freelance.png';
-import Aura from '../assets/images/Portfolio/Aura.png';
-import Surtido from '../assets/images/Portfolio/Surtido.png';
-import ManagementApp from '../assets/images/Portfolio/ManagementApp.png';
+
 
 // Advantages
 import Communicative from '../assets/images/Advantages/Communicative.png';
