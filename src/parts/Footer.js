@@ -29,7 +29,9 @@ export default function Footer() {
               rac.hafidz@gmail.com
             </p>
             <p className="text-lg text-gray-400 font-light">
-              Klaten, Central Java, Indonesia
+              SUITE C, LEVEL 7, WORLD TRUST TOWER, <br />
+              50 STANLEY STREET, CENTRAL <br />
+              HONG KONG
             </p>
           </div>
           <div className="w-1/3 ml-16 sm:ml-0 mt-0">
