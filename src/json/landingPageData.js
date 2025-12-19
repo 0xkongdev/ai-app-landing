@@ -9,8 +9,6 @@ import UIUX from '../assets/images/Services/Design.png';
 import Recruiting from '../assets/images/Portfolio/Recruiting.png';
 import Stream from '../assets/images/Portfolio/Stream.png';
 import Freelance from '../assets/images/Portfolio/Freelance.png';
-
-
 // Advantages
 import Communicative from '../assets/images/Advantages/Communicative.png';
 import Collaborative from '../assets/images/Advantages/Collaborative.png';
