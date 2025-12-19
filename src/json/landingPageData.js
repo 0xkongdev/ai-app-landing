@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
 
-// Services Img Imports
+// Achievements Img Imports
 import Web from '../assets/images/Services/Web.png';
 import Mobile from '../assets/images/Services/Mobile.png';
 import UIUX from '../assets/images/Services/Design.png';
@@ -38,25 +38,61 @@ import Mobile2 from '../assets/images/TeamMembers/Mobile2.jpg';
 import UIUX1 from '../assets/images/TeamMembers/UIUX1.jpg';
 import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
 
-export const Services = [
+export const Achievements = [
   {
-    title: 'Web Development',
+    title: '10M+ Downloads',
+    subtitle: 'Worldwide',
     imageUrl: Web,
     animation: 'left',
   },
   {
-    title: 'Mobile Development',
+    title: '1M+ Active Users',
+    subtitle: 'Monthly Active Users',
     imageUrl: Mobile,
     animation: 'up',
   },
   {
-    title: 'UI/UX Design',
+    title: '300+ Products',
+    subtitle: 'Successfully Released',
     imageUrl: UIUX,
     animation: 'right',
   },
 ];
 
 export const Portfolios = [
+  {
+    id: 'ai_app_01',
+    title: 'AI Art Generator',
+    imageUrl: Stream, // Mobile style
+    type: 'Mobile Apps',
+    responsibility: [
+      'AI Integration',
+      'Mobile Development',
+    ],
+    credit: 'https://dribbble.com/shots/15276430-Stream',
+  },
+  {
+    id: 'ai_app_02',
+    title: 'ChatGenius',
+    imageUrl: Recruiting, // Mobile style
+    type: 'Mobile Apps',
+    responsibility: [
+      'AI Integration',
+      'Mobile Development',
+    ],
+    credit: 'https://dribbble.com/shots/15164950-Recruiting-app',
+  },
+  {
+    id: 'ai_app_03',
+    title: 'VoiceAI',
+    imageUrl: Freelance, // Mobile style
+    type: 'Mobile Apps',
+    responsibility: [
+      'AI Integration',
+      'Mobile Development',
+    ],
+    credit: 'https://dribbble.com/shots/15223131-Freelance-Mobile-App-Concept',
+  },
   {
     id: 'asd1293uasdads1',
     title: 'Recruiting App',
@@ -92,33 +128,33 @@ export const Portfolios = [
   },
   {
     id: 'asd1293ufgdfgs4',
-    title: 'Aura',
-    imageUrl: Aura,
-    type: 'Website',
+    title: 'Aura Health',
+    imageUrl: Stream, // Reusing Stream image for mobile look
+    type: 'Mobile Apps',
     responsibility: [
-      'Web Development',
+      'Mobile Development',
       'UI/UX Design',
     ],
     credit: 'https://dribbble.com/shots/15176338-Aura-Website-Main-Page',
   },
   {
     id: 'asd1293ulskmnb5',
-    title: 'Surtido Rico',
-    imageUrl: Surtido,
-    type: 'Website',
+    title: 'Foodelivery',
+    imageUrl: Recruiting, // Reusing Recruiting image for mobile look
+    type: 'Mobile Apps',
     responsibility: [
-      'Web Development',
+      'Mobile Development',
       'UI/UX Design',
     ],
     credit: 'https://dribbble.com/shots/15173118-Surtido-Rico',
   },
   {
     id: 'asd1293ulkmnbj6',
-    title: 'Courses Management',
-    imageUrl: ManagementApp,
-    type: 'Website',
+    title: 'E-Learning',
+    imageUrl: Freelance, // Reusing Freelance image for mobile look
+    type: 'Mobile Apps',
     responsibility: [
-      'Web Development',
+      'Mobile Development',
       'UI/UX Design',
     ],
     credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
